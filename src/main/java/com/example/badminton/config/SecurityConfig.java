@@ -40,7 +40,11 @@ public class SecurityConfig {
                         .permitAll()
                         .requestMatchers(HttpMethod.POST, "/api/v1/users")
                         .permitAll()
-                        .requestMatchers(HttpMethod.GET, "/api/v1/courts", "/api/v1/courts/*/images")
+                        .requestMatchers(HttpMethod.GET,
+                                "/api/v1/courts",
+                                "/api/v1/courts/{id}",
+                                "/api/v1/courts/*/images",
+                                "/api/v1/time-slots")
                         .permitAll()
                         .requestMatchers(HttpMethod.POST, "/api/v1/auth/logout", "/api/v1/auth/change-password")
                         .authenticated()
