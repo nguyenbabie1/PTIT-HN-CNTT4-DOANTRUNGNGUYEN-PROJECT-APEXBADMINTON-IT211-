@@ -39,3 +39,347 @@
 2026-06-12T12:18:20.091+07:00  INFO 8892 --- [ApexBadminton] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-06-12T12:18:20.094+07:00  INFO 8892 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2026-06-12T12:18:20.103+07:00  INFO 8892 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-12T14:45:52.751+07:00  INFO 20784 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : Starting ApexBadmintonApplicationTests using Java 17.0.19 with PID 20784 (started by HCLaptop.com in D:\ApexBadminton)
+2026-06-12T14:45:52.792+07:00  INFO 20784 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T14:45:56.884+07:00  INFO 20784 --- [ApexBadminton] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-12T14:45:57.337+07:00  INFO 20784 --- [ApexBadminton] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 412 ms. Found 7 JPA repository interfaces.
+2026-06-12T14:46:00.885+07:00  INFO 20784 --- [ApexBadminton] [Test worker] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-12T14:46:01.305+07:00  INFO 20784 --- [ApexBadminton] [Test worker] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-12T14:46:04.416+07:00  INFO 20784 --- [ApexBadminton] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-12T14:46:04.644+07:00  INFO 20784 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-12T14:46:06.554+07:00  INFO 20784 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ce8084a
+2026-06-12T14:46:06.575+07:00  INFO 20784 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-12T14:46:07.203+07:00  INFO 20784 --- [ApexBadminton] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/apexbadminton_DB?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: apexbadminton_DB/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-12T14:46:13.123+07:00  INFO 20784 --- [ApexBadminton] [Test worker] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-12T14:46:13.740+07:00  INFO 20784 --- [ApexBadminton] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T14:46:14.172+07:00  INFO 20784 --- [ApexBadminton] [Test worker] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-12T14:46:19.556+07:00  INFO 20784 --- [ApexBadminton] [Test worker] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-12T14:46:19.556+07:00  WARN 20784 --- [ApexBadminton] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-12T14:46:21.737+07:00  WARN 20784 --- [ApexBadminton] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-12T14:46:25.525+07:00  INFO 20784 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : Started ApexBadmintonApplicationTests in 34.248 seconds (process running for 41.608)
+2026-06-12T14:46:27.843+07:00  INFO 20784 --- [ApexBadminton] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T14:46:27.861+07:00  INFO 20784 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-12T14:46:27.898+07:00  INFO 20784 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-12T14:54:18.715+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] c.e.badminton.ApexBadmintonApplication   : Starting ApexBadmintonApplication using Java 17.0.19 with PID 20064 (D:\ApexBadminton\build\classes\java\main started by HCLaptop.com in D:\ApexBadminton)
+2026-06-12T14:54:18.730+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] c.e.badminton.ApexBadmintonApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T14:54:18.913+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-12T14:54:18.915+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-12T14:54:21.602+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-12T14:54:21.877+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 242 ms. Found 7 JPA repository interfaces.
+2026-06-12T14:54:24.438+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-12T14:54:24.492+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-12T14:54:24.493+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-12T14:54:24.700+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5782 ms
+2026-06-12T14:54:25.315+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-12T14:54:25.534+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-12T14:54:27.610+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-12T14:54:27.742+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-12T14:54:28.823+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ddfc0ba
+2026-06-12T14:54:28.829+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-12T14:54:29.170+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/apexbadminton_DB?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: apexbadminton_DB/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-12T14:54:33.716+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-12T14:54:34.132+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T14:54:34.477+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-12T14:54:38.104+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-12T14:54:38.105+07:00  WARN 20064 --- [ApexBadminton] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-12T14:54:39.452+07:00  WARN 20064 --- [ApexBadminton] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-12T14:54:42.016+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-12T14:54:42.036+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] c.e.badminton.ApexBadmintonApplication   : Started ApexBadmintonApplication in 25.071 seconds (process running for 28.522)
+2026-06-12T15:03:47.847+07:00  INFO 20064 --- [ApexBadminton] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-06-12T15:03:47.868+07:00  INFO 20064 --- [ApexBadminton] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-12T15:03:48.581+07:00  INFO 20064 --- [ApexBadminton] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-12T15:03:48.603+07:00  INFO 20064 --- [ApexBadminton] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:03:48.618+07:00  INFO 20064 --- [ApexBadminton] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-12T15:03:48.646+07:00  INFO 20064 --- [ApexBadminton] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-12T15:03:49.080+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] c.e.badminton.ApexBadmintonApplication   : Starting ApexBadmintonApplication using Java 17.0.19 with PID 20064 (D:\ApexBadminton\build\classes\java\main started by HCLaptop.com in D:\ApexBadminton)
+2026-06-12T15:03:49.082+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] c.e.badminton.ApexBadmintonApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T15:03:49.979+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-12T15:03:50.063+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 7 JPA repository interfaces.
+2026-06-12T15:03:50.606+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-12T15:03:50.610+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-12T15:03:50.611+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-12T15:03:50.716+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1625 ms
+2026-06-12T15:03:50.905+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-12T15:03:51.090+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-12T15:03:51.095+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-06-12T15:03:51.160+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fa0d56e
+2026-06-12T15:03:51.161+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-06-12T15:03:51.166+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/apexbadminton_DB?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: apexbadminton_DB/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-12T15:03:51.671+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-12T15:03:51.856+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:03:52.512+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-12T15:03:52.513+07:00  WARN 20064 --- [ApexBadminton] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-12T15:03:53.071+07:00  WARN 20064 --- [ApexBadminton] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-12T15:03:54.447+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-12T15:03:54.463+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] c.e.badminton.ApexBadmintonApplication   : Started ApexBadmintonApplication in 5.486 seconds (process running for 580.948)
+2026-06-12T15:03:54.529+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-12T15:03:59.345+07:00  INFO 20064 --- [ApexBadminton] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-06-12T15:03:59.349+07:00  INFO 20064 --- [ApexBadminton] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-12T15:04:00.471+07:00  INFO 20064 --- [ApexBadminton] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-12T15:04:00.483+07:00  INFO 20064 --- [ApexBadminton] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:04:00.485+07:00  INFO 20064 --- [ApexBadminton] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-06-12T15:04:00.506+07:00  INFO 20064 --- [ApexBadminton] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-06-12T15:04:00.865+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] c.e.badminton.ApexBadmintonApplication   : Starting ApexBadmintonApplication using Java 17.0.19 with PID 20064 (D:\ApexBadminton\build\classes\java\main started by HCLaptop.com in D:\ApexBadminton)
+2026-06-12T15:04:00.866+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] c.e.badminton.ApexBadmintonApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T15:04:01.583+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-12T15:04:01.669+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 7 JPA repository interfaces.
+2026-06-12T15:04:02.381+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-12T15:04:02.385+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-12T15:04:02.387+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-12T15:04:02.491+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1619 ms
+2026-06-12T15:04:02.786+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-12T15:04:02.944+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-12T15:04:02.947+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-06-12T15:04:02.999+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a5190fe
+2026-06-12T15:04:03.001+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-06-12T15:04:03.006+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/apexbadminton_DB?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: apexbadminton_DB/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-12T15:04:03.591+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-12T15:04:03.766+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:04:04.946+07:00  INFO 20064 --- [ApexBadminton] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-12T15:04:04.947+07:00  WARN 20064 --- [ApexBadminton] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-12T15:04:05.829+07:00  WARN 20064 --- [ApexBadminton] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-12T15:08:12.752+07:00  INFO 9668 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : Starting ApexBadmintonApplicationTests using Java 17.0.19 with PID 9668 (started by HCLaptop.com in D:\ApexBadminton)
+2026-06-12T15:08:12.770+07:00  INFO 9668 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T15:08:16.239+07:00  INFO 9668 --- [ApexBadminton] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-12T15:08:16.588+07:00  INFO 9668 --- [ApexBadminton] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 298 ms. Found 7 JPA repository interfaces.
+2026-06-12T15:08:19.939+07:00  INFO 9668 --- [ApexBadminton] [Test worker] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-12T15:08:20.234+07:00  INFO 9668 --- [ApexBadminton] [Test worker] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-12T15:08:23.288+07:00  INFO 9668 --- [ApexBadminton] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-12T15:08:23.478+07:00  INFO 9668 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-12T15:08:24.888+07:00  INFO 9668 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a08e41b
+2026-06-12T15:08:24.904+07:00  INFO 9668 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-12T15:08:25.564+07:00  INFO 9668 --- [ApexBadminton] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/apexbadminton_DB?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: apexbadminton_DB/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-12T15:08:30.402+07:00  INFO 9668 --- [ApexBadminton] [Test worker] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-12T15:08:30.839+07:00  INFO 9668 --- [ApexBadminton] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:08:31.544+07:00  INFO 9668 --- [ApexBadminton] [Test worker] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-12T15:08:37.460+07:00  INFO 9668 --- [ApexBadminton] [Test worker] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-12T15:08:37.460+07:00  WARN 9668 --- [ApexBadminton] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-12T15:08:39.944+07:00  WARN 9668 --- [ApexBadminton] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-12T15:08:44.624+07:00  INFO 9668 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : Started ApexBadmintonApplicationTests in 33.187 seconds (process running for 40.127)
+2026-06-12T15:08:52.440+07:00  INFO 9668 --- [ApexBadminton] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:08:52.454+07:00  INFO 9668 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-12T15:08:52.503+07:00  INFO 9668 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-12T15:11:08.042+07:00  INFO 2296 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : Starting ApexBadmintonApplicationTests using Java 17.0.19 with PID 2296 (started by HCLaptop.com in D:\ApexBadminton)
+2026-06-12T15:11:08.058+07:00  INFO 2296 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T15:11:10.912+07:00  INFO 2296 --- [ApexBadminton] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-12T15:11:11.248+07:00  INFO 2296 --- [ApexBadminton] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 256 ms. Found 7 JPA repository interfaces.
+2026-06-12T15:11:14.444+07:00  INFO 2296 --- [ApexBadminton] [Test worker] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-12T15:11:14.765+07:00  INFO 2296 --- [ApexBadminton] [Test worker] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-12T15:11:16.738+07:00  INFO 2296 --- [ApexBadminton] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-12T15:11:16.882+07:00  INFO 2296 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-12T15:11:18.224+07:00  INFO 2296 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50d507ab
+2026-06-12T15:11:18.234+07:00  INFO 2296 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-12T15:11:18.801+07:00  INFO 2296 --- [ApexBadminton] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/apexbadminton_DB?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: apexbadminton_DB/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-12T15:11:22.710+07:00  INFO 2296 --- [ApexBadminton] [Test worker] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-12T15:11:23.169+07:00  INFO 2296 --- [ApexBadminton] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:11:23.992+07:00  INFO 2296 --- [ApexBadminton] [Test worker] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-12T15:11:29.411+07:00  INFO 2296 --- [ApexBadminton] [Test worker] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-12T15:11:29.411+07:00  WARN 2296 --- [ApexBadminton] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-12T15:11:31.326+07:00  WARN 2296 --- [ApexBadminton] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-12T15:11:34.779+07:00  INFO 2296 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : Started ApexBadmintonApplicationTests in 27.928 seconds (process running for 47.016)
+2026-06-12T15:11:36.323+07:00  INFO 2296 --- [ApexBadminton] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:11:36.329+07:00  INFO 2296 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-12T15:11:36.355+07:00  INFO 2296 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-12T15:15:47.050+07:00  INFO 8676 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : Starting ApexBadmintonApplicationTests using Java 17.0.19 with PID 8676 (started by HCLaptop.com in D:\ApexBadminton)
+2026-06-12T15:15:47.072+07:00  INFO 8676 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T15:15:52.468+07:00  INFO 8676 --- [ApexBadminton] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-12T15:15:52.950+07:00  INFO 8676 --- [ApexBadminton] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 396 ms. Found 7 JPA repository interfaces.
+2026-06-12T15:15:57.751+07:00  INFO 8676 --- [ApexBadminton] [Test worker] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-12T15:15:58.397+07:00  INFO 8676 --- [ApexBadminton] [Test worker] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-12T15:16:00.753+07:00  INFO 8676 --- [ApexBadminton] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-12T15:16:00.941+07:00  INFO 8676 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-12T15:16:02.888+07:00  INFO 8676 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@771b2b5b
+2026-06-12T15:16:02.898+07:00  INFO 8676 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-12T15:16:03.580+07:00  INFO 8676 --- [ApexBadminton] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/apexbadminton_DB?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: apexbadminton_DB/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-12T15:16:09.266+07:00  INFO 8676 --- [ApexBadminton] [Test worker] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-12T15:16:09.959+07:00  INFO 8676 --- [ApexBadminton] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:16:11.642+07:00  INFO 8676 --- [ApexBadminton] [Test worker] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-12T15:16:21.407+07:00  INFO 8676 --- [ApexBadminton] [Test worker] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-12T15:16:21.409+07:00  WARN 8676 --- [ApexBadminton] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-12T15:16:25.778+07:00  WARN 8676 --- [ApexBadminton] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-12T15:16:31.386+07:00  INFO 8676 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : Started ApexBadmintonApplicationTests in 46.659 seconds (process running for 64.395)
+2026-06-12T15:16:34.629+07:00  INFO 8676 --- [ApexBadminton] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:16:34.656+07:00  INFO 8676 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-12T15:16:34.692+07:00  INFO 8676 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-12T15:18:15.645+07:00  INFO 22072 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : Starting ApexBadmintonApplicationTests using Java 17.0.19 with PID 22072 (started by HCLaptop.com in D:\ApexBadminton)
+2026-06-12T15:18:15.645+07:00  INFO 22072 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T15:18:20.287+07:00  INFO 22072 --- [ApexBadminton] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-12T15:18:20.713+07:00  INFO 22072 --- [ApexBadminton] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 376 ms. Found 7 JPA repository interfaces.
+2026-06-12T15:18:24.553+07:00  INFO 22072 --- [ApexBadminton] [Test worker] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-12T15:18:24.920+07:00  INFO 22072 --- [ApexBadminton] [Test worker] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-12T15:18:27.401+07:00  INFO 22072 --- [ApexBadminton] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-12T15:18:27.610+07:00  INFO 22072 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-12T15:18:29.177+07:00  INFO 22072 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44ec6637
+2026-06-12T15:18:29.177+07:00  INFO 22072 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-12T15:18:29.727+07:00  INFO 22072 --- [ApexBadminton] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/apexbadminton_DB?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: apexbadminton_DB/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-12T15:18:34.489+07:00  INFO 22072 --- [ApexBadminton] [Test worker] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-12T15:18:34.977+07:00  INFO 22072 --- [ApexBadminton] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:18:35.977+07:00  INFO 22072 --- [ApexBadminton] [Test worker] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-12T15:18:42.639+07:00  INFO 22072 --- [ApexBadminton] [Test worker] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-12T15:18:42.640+07:00  WARN 22072 --- [ApexBadminton] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-12T15:18:45.433+07:00  WARN 22072 --- [ApexBadminton] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-12T15:18:50.422+07:00  INFO 22072 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : Started ApexBadmintonApplicationTests in 36.83 seconds (process running for 53.497)
+2026-06-12T15:18:55.645+07:00  INFO 22072 --- [ApexBadminton] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:18:55.666+07:00  INFO 22072 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-12T15:18:56.139+07:00  INFO 22072 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-12T15:19:49.369+07:00  INFO 9136 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : Starting ApexBadmintonApplicationTests using Java 17.0.19 with PID 9136 (started by HCLaptop.com in D:\ApexBadminton)
+2026-06-12T15:19:49.385+07:00  INFO 9136 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T15:19:55.621+07:00  INFO 9136 --- [ApexBadminton] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-12T15:19:56.400+07:00  INFO 9136 --- [ApexBadminton] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 664 ms. Found 7 JPA repository interfaces.
+2026-06-12T15:20:02.124+07:00  INFO 9136 --- [ApexBadminton] [Test worker] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-12T15:20:02.563+07:00  INFO 9136 --- [ApexBadminton] [Test worker] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-12T15:20:05.315+07:00  INFO 9136 --- [ApexBadminton] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-12T15:20:05.559+07:00  INFO 9136 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-12T15:20:08.019+07:00  INFO 9136 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f943847
+2026-06-12T15:20:08.035+07:00  INFO 9136 --- [ApexBadminton] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-12T15:20:08.870+07:00  INFO 9136 --- [ApexBadminton] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/apexbadminton_DB?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: apexbadminton_DB/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-12T15:20:14.984+07:00  INFO 9136 --- [ApexBadminton] [Test worker] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-12T15:20:16.019+07:00  INFO 9136 --- [ApexBadminton] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:20:17.267+07:00  INFO 9136 --- [ApexBadminton] [Test worker] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-12T15:20:25.293+07:00  INFO 9136 --- [ApexBadminton] [Test worker] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-12T15:20:25.301+07:00  WARN 9136 --- [ApexBadminton] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-12T15:20:28.105+07:00  WARN 9136 --- [ApexBadminton] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-12T15:20:33.983+07:00  INFO 9136 --- [ApexBadminton] [Test worker] c.e.b.ApexBadmintonApplicationTests      : Started ApexBadmintonApplicationTests in 46.609 seconds (process running for 60.689)
+2026-06-12T15:20:37.913+07:00  INFO 9136 --- [ApexBadminton] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:20:37.926+07:00  INFO 9136 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-12T15:20:37.963+07:00  INFO 9136 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-12T15:23:38.325+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] c.e.badminton.ApexBadmintonApplication   : Starting ApexBadmintonApplication using Java 17.0.19 with PID 12336 (D:\ApexBadminton\build\classes\java\main started by HCLaptop.com in D:\ApexBadminton)
+2026-06-12T15:23:38.341+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] c.e.badminton.ApexBadmintonApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T15:23:38.570+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-12T15:23:38.572+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-12T15:23:41.979+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-12T15:23:42.330+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 306 ms. Found 7 JPA repository interfaces.
+2026-06-12T15:23:45.801+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-12T15:23:45.862+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-12T15:23:45.863+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-12T15:23:46.152+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 7576 ms
+2026-06-12T15:23:47.127+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-12T15:23:47.391+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-12T15:23:49.884+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-12T15:23:50.102+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-12T15:23:52.251+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61bd0a0e
+2026-06-12T15:23:52.259+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-12T15:23:52.891+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/apexbadminton_DB?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: apexbadminton_DB/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-12T15:23:59.184+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-12T15:23:59.731+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:24:00.326+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-12T15:24:04.713+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-12T15:24:04.713+07:00  WARN 12336 --- [ApexBadminton] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-12T15:24:06.599+07:00  WARN 12336 --- [ApexBadminton] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-12T15:24:10.269+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-12T15:24:10.290+07:00  INFO 12336 --- [ApexBadminton] [restartedMain] c.e.badminton.ApexBadmintonApplication   : Started ApexBadmintonApplication in 34.076 seconds (process running for 38.109)
+2026-06-12T15:24:23.471+07:00  INFO 12336 --- [ApexBadminton] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-12T15:24:24.275+07:00  INFO 12336 --- [ApexBadminton] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-12T15:24:24.299+07:00  INFO 12336 --- [ApexBadminton] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T15:24:24.310+07:00  INFO 12336 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-12T15:24:24.337+07:00  INFO 12336 --- [ApexBadminton] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
