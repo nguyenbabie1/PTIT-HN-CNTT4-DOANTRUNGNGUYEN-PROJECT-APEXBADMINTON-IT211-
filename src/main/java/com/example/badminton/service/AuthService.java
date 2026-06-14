@@ -7,6 +7,7 @@ import com.example.badminton.dto.request.RefreshTokenRequest;
 import com.example.badminton.dto.request.ResetPasswordRequest;
 import com.example.badminton.dto.response.ApiResponse;
 import com.example.badminton.dto.response.AuthResponse;
+import com.example.badminton.dto.response.ForgotPasswordResponse;
 import com.example.badminton.entity.PasswordResetToken;
 import com.example.badminton.entity.TokenBlacklist;
 import com.example.badminton.entity.User;
@@ -16,6 +17,7 @@ import com.example.badminton.repository.TokenBlacklistRepository;
 import com.example.badminton.repository.UserRepository;
 import com.example.badminton.security.JwtService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -32,6 +34,7 @@ import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class AuthService {
 
     private final AuthenticationManager authenticationManager;
@@ -101,18 +104,27 @@ public class AuthService {
     }
 
     @Transactional
-    public ApiResponse forgotPassword(ForgotPasswordRequest request) {
+    public ForgotPasswordResponse forgotPassword(ForgotPasswordRequest request) {
+        String[] resetToken = {null};
         userRepository.findByEmail(request.getEmail()).ifPresent(user -> {
-            String token = UUID.randomUUID().toString();
+            resetToken[0] = UUID.randomUUID().toString();
             passwordResetTokenRepository.save(PasswordResetToken.builder()
-                    .token(token)
+                    .token(resetToken[0])
                     .user(user)
                     .expiresAt(Instant.now().plusMillis(passwordResetExpirationMs))
                     .used(false)
                     .build());
+
+            log.info("===== PASSWORD RESET TOKEN =====");
+            log.info("Email: {}", request.getEmail());
+            log.info("Token: {}", resetToken[0]);
+            log.info("================================");
         });
 
-        return new ApiResponse("If the email exists, a password reset link has been sent");
+        return ForgotPasswordResponse.builder()
+                .message("If the email exists, a password reset link has been sent")
+                .resetToken(resetToken[0])
+                .build();
     }
 
     @Transactional

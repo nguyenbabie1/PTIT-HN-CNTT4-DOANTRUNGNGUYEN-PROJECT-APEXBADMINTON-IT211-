@@ -7,6 +7,7 @@ import com.example.badminton.dto.request.RefreshTokenRequest;
 import com.example.badminton.dto.request.ResetPasswordRequest;
 import com.example.badminton.dto.response.ApiResponse;
 import com.example.badminton.dto.response.AuthResponse;
+import com.example.badminton.dto.response.ForgotPasswordResponse;
 import com.example.badminton.service.AuthService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
@@ -49,7 +50,7 @@ public class AuthController {
     }
 
     @PostMapping("/forgot-password")
-    public ResponseEntity<ApiResponse> forgotPassword(@Valid @RequestBody ForgotPasswordRequest request) {
+    public ResponseEntity<ForgotPasswordResponse> forgotPassword(@Valid @RequestBody ForgotPasswordRequest request) {
         return ResponseEntity.ok(authService.forgotPassword(request));
     }
 

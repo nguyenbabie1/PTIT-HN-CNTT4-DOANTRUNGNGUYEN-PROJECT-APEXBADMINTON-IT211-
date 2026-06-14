@@ -40,9 +40,14 @@ public class Booking {
     @Column(nullable = false, length = 20)
     private BookingStatus status;
 
-    @Column(nullable = false)
+    @Column(nullable = false, updatable = false)
     private LocalDateTime createdAt;
 
     @Column(length = 500)
     private String billImageUrl;
+
+    @PrePersist
+    protected void onCreate() {
+        createdAt = LocalDateTime.now();
+    }
 }

@@ -25,6 +25,11 @@ public class CourtImage {
     @Column(nullable = false, length = 500)
     private String imageUrl;
 
-    @Column(nullable = false)
+    @Column(nullable = false, updatable = false)
     private LocalDateTime createdAt;
+
+    @PrePersist
+    protected void onCreate() {
+        createdAt = LocalDateTime.now();
+    }
 }

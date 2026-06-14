@@ -3,6 +3,7 @@ package com.example.badminton.controller;
 import com.example.badminton.dto.request.LoginRequest;
 import com.example.badminton.dto.request.ForgotPasswordRequest;
 import com.example.badminton.dto.response.AuthResponse;
+import com.example.badminton.dto.response.ForgotPasswordResponse;
 import com.example.badminton.service.AuthService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -52,14 +53,18 @@ class AuthControllerTest {
         ForgotPasswordRequest request = new ForgotPasswordRequest();
         request.setEmail("test@example.com");
 
-        when(authService.forgotPassword(any(ForgotPasswordRequest.class)))
-                .thenReturn(new com.example.badminton.dto.response.ApiResponse(
-                        "If the email exists, a password reset link has been sent"));
+        ForgotPasswordResponse forgotPasswordResponse = ForgotPasswordResponse.builder()
+                .message("If the email exists, a password reset link has been sent")
+                .resetToken("test-reset-token")
+                .build();
 
-        ResponseEntity<?> response = authController.forgotPassword(request);
+        when(authService.forgotPassword(any(ForgotPasswordRequest.class)))
+                .thenReturn(forgotPasswordResponse);
+
+        ResponseEntity<ForgotPasswordResponse> response = authController.forgotPassword(request);
 
         assertNotNull(response.getBody());
-        assertEquals("If the email exists, a password reset link has been sent",
-                ((com.example.badminton.dto.response.ApiResponse) response.getBody()).getMessage());
+        assertEquals("If the email exists, a password reset link has been sent", response.getBody().getMessage());
+        assertEquals("test-reset-token", response.getBody().getResetToken());
     }
 }
